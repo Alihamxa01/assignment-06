@@ -93,6 +93,7 @@ export default function Category() {
 
 
 {/* 6 */}
+
 <div className="bg-[#F7F7F7] rounded-md h-32 w-96 flex items-center p-4 mb-5 hover:scale-95 duration-150">
     <Image
       src="/6.jpg"
@@ -138,7 +139,7 @@ export default function Category() {
     </p>
   </div>
 {/* 9 */}
-<div className="bg-[#F7F7F7] rounded-md h-32 w-96 flex items-center p-4 mb-5 hover:scale-95 duration-150">
+<div className=" bg-[#F7F7F7] rounded-md h-32 w-96 flex items-center p-4 mb-5 hover:scale-95 duration-150">
     <Image
       src="/9.jpg"
       width={100}
@@ -152,8 +153,8 @@ export default function Category() {
     <span className="text-lg " >50+ Courses Available</span>
     </p>
   </div>
+  </div>
 
-</div>
 <div className="flex justify-center items-center hover:scale-110 duration-300 ">
 <button className="border rounded-md mt-3 mb-3 pt-3 pb-3 pl-6 pr-6 text-black px-6 hover:border-2 border-black ">View All Course</button>
 </div>
@@ -167,19 +168,3 @@ export default function Category() {
 }
 
 
-
-
-// import React from 'react'
-
-// export default function Category() {
-//   return (
-//     <div className="grid grid-cols-3 grid-rows-3 justify-center items-center gap-2">
-//       <div className="1 gap-4">1</div>
-//       <div className="2">2</div>
-//       <div className="3">3</div>
-//       <div className="4">4</div>
-//       <div className="5">5</div>
-//       <div className="6">6</div>
-//     </div>
-//   )
-// }

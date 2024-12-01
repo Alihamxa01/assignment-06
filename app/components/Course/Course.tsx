@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 export default function Course() {
   return (
@@ -20,7 +21,7 @@ export default function Course() {
           {/* Card 1 */}
 
           <div className="bg-[#f7f7f7] rounded-lg shadow-lg p-5 text-left hover:scale-110 duration-150">
-            <img src="/a.jpg" width={416} height={300} alt="UX/UI Design" className="rounded mb-4" />
+            <Image src="/a.jpg" width={416} height={300} alt="UX/UI Design" className="rounded mb-4" />
             <p className=" text-sm mb-2">Design </p>
             <h5 className="text-2xl font-bold mb-2">UX/UI Design 2021</h5>
             <p className=" text-sm mb-4">
@@ -35,7 +36,7 @@ export default function Course() {
           {/* Card 2 */}
 
           <div className="bg-[#f7f7f7] rounded-lg shadow-lg p-5 hover:scale-110 duration-150">
-            <img src="b.jpg" width={416} height={300} alt="Introduction to Python" className="rounded mb-4" />
+            <Image src="/b.jpg" width={416} height={300} alt="Introduction to Python" className="rounded mb-4" />
             <p className=" text-sm mb-2">Programming</p>
             <h5 className="text-2xl font-bold mb-2">Introduction to Python</h5>
             <p className=" text-sm mb-4">
@@ -50,7 +51,7 @@ export default function Course() {
           {/* Card 3 */}
 
           <div className="bg-[#f7f7f7] rounded-lg shadow-lg p-5 hover:scale-110 duration-150">
-            <img src="c.jpg" width={416} height={300}  alt="Data Analysis" className="rounded mb-4" />
+            <Image src="/c.jpg" width={416} height={300}  alt="Data Analysis" className="rounded mb-4" />
             <p className=" text-sm mb-2">Business</p>
             <h5 className="text-2xl font-bold mb-2">Data Analysis for Beginners</h5>
             <p className=" text-sm mb-4">
@@ -70,7 +71,7 @@ export default function Course() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 m-10 text-left ">
      
         <div className= "bg-[#f7f7f7] rounded-lg shadow-lg p-5 hover:scale-110 duration-150 hidden sm:block">
-            <img src="/d.jpg"  width={416} height={300} alt="UX/UI Design" className="rounded mb-4 " />
+            <Image  src="/d.jpg"  width={416} height={300} alt="UX/UI Design" className="rounded mb-4 " />
             <p className=" text-sm mb-2">Art </p>
             <h5 className="text-2xl font-bold mb-2">Art Specialization</h5>
             <p className=" text-sm mb-4">
@@ -83,7 +84,7 @@ export default function Course() {
           </div>
           {/* 5 */}
           <div className=" bg-[#f7f7f7] rounded-lg shadow-lg p-5 hover:scale-110 duration-150 hidden sm:block">
-            <img src="/e.jpg" width={416} height={300} alt="UX/UI Design" className="rounded mb-4 " />
+            <Image  src="/e.jpg" width={416} height={300} alt="UX/UI Design" className="rounded mb-4 " />
             <p className="text-sm mb-2">Law </p>
             <h5 className="text-2xl font-bold mb-2">RIule Of Law</h5>
             <p className="text-sm mb-4">
@@ -96,7 +97,7 @@ export default function Course() {
           </div>
           {/* 6 */}
           <div className=" bg-[#f7f7f7] rounded-lg shadow-lg p-5 hover:scale-110 duration-150 hidden sm:block">
-            <img src="/f.jpg" width={416} height={300} alt="UX/UI Design" className="rounded mb-4 " />
+            <Image  src="/f.jpg" width={416} height={300} alt="UX/UI Design" className="rounded mb-4 " />
             <p className="0 text-sm mb-2">  Tech</p>
             <h3 className="text-2xl font-bold mb-2">Introduction to webflow</h3>
             <p className=" text-sm mb-4">

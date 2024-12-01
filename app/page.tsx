@@ -78,4 +78,4 @@ const web = () => {
   );
 };
 
-export default web;
+export default web

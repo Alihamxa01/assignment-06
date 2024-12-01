@@ -13,7 +13,7 @@ export default function Team() {
 
 {/* team1 */}
 <div className=" grid grid-cols-1 sm:grid-cols-3 grid-rows-2  text-center justify-center items-center mt-20 ">
-<div className="">
+<div>
   <Image
   src="/22.png"
   width={80}
@@ -43,7 +43,7 @@ export default function Team() {
 </div>
 
 {/* team2 */}
-<div className="">
+<div>
   <Image
   src="/66.png"
   width={80}
@@ -75,7 +75,7 @@ export default function Team() {
 {/* team3 */}
 
 {/* team2 */}
-<div className="">
+<div>
   <Image
   src="/11.png"
   width={80}
@@ -215,7 +215,10 @@ export default function Team() {
   <span className="gap-1 flex">
     <FaStar/><FaStar/><FaStar/><FaStar/><FaStar/> 
     </span>
-     <br/> "Lorem ipsum dolor sit amet,<br/> consectetur adipiscing elit.<br/> Suspendisse varius enim in eros<br/> elementum tristique. Duis cursus, mi<br/> quis viverra ornare."
+     <br/>
+     
+      Lorem ipsum dolor sit amet,<br/> consectetur adipiscing elit.<br/> Suspendisse varius enim in eros<br/> elementum tristique. Duis cursus, mi<br/> quis viverra ornare.
+     
      <br/><br/>
      </p> 
      {/* img */}
@@ -241,7 +244,8 @@ className="rounded-full"
   <span className="gap-1 flex">
     <FaStar/><FaStar/><FaStar/><FaStar/><FaStar/> 
     </span>
-     <br/> "Lorem ipsum dolor sit amet,<br/> consectetur adipiscing elit.<br/> Suspendisse varius enim in eros<br/> elementum tristique. Duis cursus, mi<br/> quis viverra ornare."
+     <br/>
+     lorem ipsum dolor sit amet,<br/> consectetur adipiscing elit.<br/> Suspendisse varius enim in eros<br/> elementum tristique. Duis cursus, mi<br/> quis viverra ornare.
      <br/><br/>
      </p>
       {/* img */}
@@ -267,7 +271,9 @@ className="rounded-full"
   <span className="gap-1 flex">
     <FaStar/><FaStar/><FaStar/><FaStar/><FaStar/> 
     </span>
-     <br/> "Lorem ipsum dolor sit amet,<br/> consectetur adipiscing elit.<br/> Suspendisse varius enim in eros<br/> elementum tristique. Duis cursus, mi<br/> quis viverra ornare."
+     <br/> 
+     
+     lorem ipsum dolor sit amet,<br/> consectetur adipiscing elit.<br/> Suspendisse varius enim in eros<br/> elementum tristique. Duis cursus, mi<br/> quis viverra ornare.
      <br/><br/>
      
      </p> 
