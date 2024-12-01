@@ -16,7 +16,7 @@ export default function footer() {
       </div>
 
       <div className="max-w-6xl mx-auto mt-4 ">
-        <form className="flex items-center justify-start gap-8 pl-36">
+        <form className="flex items-center justify-start gap-8 ">
           <input
             type="email"    placeholder="Enter your E-mail"  className="flex-auto px-4 py-2 border border-black text-[#505050] rounded-md text-sm "
           />

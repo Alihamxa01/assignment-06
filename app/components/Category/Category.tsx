@@ -14,7 +14,7 @@ export default function Category() {
 {/* 1 */}
   <div className="bg-[#F7F7F7] rounded-md h-32 w-96 flex items-center p-4 mb-5 hover:scale-95 duration-150  ">
     <Image
-      src="/frame 292.jpg"
+      src="/1.png"
       width={100}
       height={100}
       alt="img."
