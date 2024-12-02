@@ -1,7 +1,7 @@
 
 import React from 'react'
 import Image from 'next/image'
-import { FaLinkedin, FaTwitter, FaGlobe, FaStar, FaCircle} from 'react-icons/fa';
+import { FaLinkedin, FaTwitter, FaGlobe, FaStar, FaCircle, FaArrowLeft, FaArrowRight} from 'react-icons/fa';
 
 export default function Team() {
   return (
@@ -209,7 +209,7 @@ export default function Team() {
 </div>
 
 {/* box*/}
-<div className="justify-center items-center space-x-4 flex flex-col  space-y-4 mt-10 sm:flex-row sm:space-x-4 sm:space-y-0 ">
+<div className="justify-center items-center  flex flex-col  space-y-4 mt-10 sm:flex-row sm:space-x-4 sm:space-y-0 ">
 <div className="border border-black text-left p-10">
 <p >
   <span className="gap-1 flex">
@@ -249,7 +249,7 @@ className="rounded-full"
      <br/><br/>
      </p>
       {/* img */}
-<div className="flex space-x-4">
+      <div className="flex space-x-4">
 <Image
 src="/22.png"
 alt="11"
@@ -260,8 +260,8 @@ className="rounded-full"
      <span className="text-lg font-semibold">Erick Kipkemboi<br/>
      <span className="font-normal text-sm block">Scrum Master</span>
      </span>
-</div>
 
+</div>
  </div>
      
 
@@ -278,10 +278,10 @@ className="rounded-full"
      
      </p> 
       {/* img */}
-<div className="flex space-x-4">
+      <div className="flex space-x-4">
 <Image
 src="/33.png"
-alt="33"
+alt="11"
 width={56}
 height={56}
 className="rounded-full"
@@ -296,7 +296,7 @@ className="rounded-full"
 
 </div>
 
-<div className=" flex space-x-2 items-start ml-20 mt-10  ">
+<div className=" flex space-x-2 items-center  ml-15 sm:ml-24 mt-10  ">
   <FaCircle 
 size={5}
 
@@ -321,6 +321,15 @@ size={5}
      className="text-gray-500"
 />
 
+</div>
+{/* arrows */}
+<div className="ml-auto lg:mr-16 flex justify-end gap-4">
+  <FaArrowLeft
+ size={32}
+  className="border rounded-full p-2 text-black border-black "/>
+  <FaArrowRight
+ size={32}
+  className="border rounded-full p-2 text-black border-black"/>
 </div>
 
 

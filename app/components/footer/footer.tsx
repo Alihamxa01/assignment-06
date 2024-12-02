@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa';
 
 
@@ -16,7 +17,7 @@ export default function footer() {
       </div>
 
       <div className="max-w-6xl mx-auto mt-4 ">
-        <form className="flex items-center justify-start gap-8 ">
+        <form className="flex items-center justify-start gap-5 ">
           <input
             type="email"    placeholder="Enter your E-mail"  className="flex-auto px-4 py-2 border border-black text-[#505050] rounded-md text-sm "
           />
@@ -32,10 +33,15 @@ export default function footer() {
 
     {/* Link */}
     <div className="max-w-9xl mx-auto mt-4 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 py-9 ">
-      <div className="flex items-center space-x-10 pt-5 pb-5">
-  
-    
-        <h3 className="text-xl font-bold ml-5 mb-36 text-black">Ddsgnr</h3>
+      <div className="flex items-start justify-start space-x-2 pt-5 pb-5">
+  <Image
+  src="/77.png"
+  alt="logo"
+  width={25}
+  height={26}
+  className="ml-10"
+  />
+        <h3 className="text-xl font-bold  ml-5    text-black">Ddsgnr</h3>
       </div>
 
       <div>

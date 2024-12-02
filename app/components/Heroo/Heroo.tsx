@@ -15,7 +15,7 @@ const HeroSection: React.FC = () => {
         <p className="max-w-lg text-lg sm:text-xl text-gray-700 ">
               Discover a wide range of courses covering a variety of subjects, taught by expert instructors. </p>
     <div className="flex flex-wrap gap-4">
-              <button className=" bg-black text-white rounded-md  text-sm sm:text-base px-2 py-3 ">
+              <button className=" bg-black text-white rounded-lg  text-sm sm:text-base px-2 py-3 ">
                 Start learning now </button>
         <button className="text-sm sm:text-base px-2 py-3 border border-gray-300 text-black rounded-md hover:border-black transition-colors">
                 Explore Courses</button>

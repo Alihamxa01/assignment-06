@@ -7,6 +7,8 @@ import Achivement from './components/achivement/achivement';
 import Course from './components/Course/Course';
 import Team from './components/Team/Team';
 
+import Image from 'next/image';
+
 const web = () => {
   return (
     <div>
@@ -22,6 +24,12 @@ const web = () => {
           <div className="w-[32px] h-[32px] flex items-center">
 
           </div>
+          <Image 
+          src="/77.png"
+          alt="lgo"
+          width={32}
+          height={30}
+          />
           <h1 className="text-xl font-bold font-inter">Ddsgnr</h1>
         </div>
 
